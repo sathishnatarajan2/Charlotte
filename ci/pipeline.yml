@@ -3,8 +3,8 @@ resources:
 - name: charlotte-source
   type: git
   source:
-    uri: https://github.com/sathishnatarajan2/Struts2.git   #<----- REPLACE ME
-    branch: modernize
+    uri: https://github.com/sathishnatarajan2/Charlotte.git   #<----- REPLACE ME
+    branch: master
 
 - name: deploy-charlotte
   type: cf
