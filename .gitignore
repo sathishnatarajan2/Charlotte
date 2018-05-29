@@ -2,4 +2,6 @@
 
 target/
 *.class
+ci/pipeline.yml
+ci/private.yml
 
