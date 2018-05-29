@@ -1,0 +1,10 @@
+applications:
+- name: charlotte
+  instances: 1
+  memory: 1024M
+  disk_quota: 1024M
+  random-route: false
+  stack: cflinuxfs2
+  path: target/charlotte.jar
+  services:
+    - mysql-service

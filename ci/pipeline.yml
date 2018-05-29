@@ -1,0 +1,52 @@
+---
+resources:
+- name: charlotte-source
+  type: git
+  source:
+    uri: https://github.com/sathishnatarajan2/Struts2.git   #<----- REPLACE ME
+    branch: modernize
+
+- name: deploy-charlotte
+  type: cf
+  source:
+    api: https://api.run.pivotal.io/        #<----- REPLACE ME
+    username: {{cf-user}}
+    password: {{cf-password}}
+    organization: hema-dev    #<----- REPLACE ME
+    space: development         #<---- REPLACE ME
+    skip_cert_check: true
+
+jobs:
+#- name: test
+#  public: true
+ # plan:
+  #- get: moviefun-source
+   # trigger: true
+  #- task: test
+   # file: attendee-service-source/ci/tasks/test.yml
+
+- name: deploy
+  public: true
+  plan:
+  - get: charlotte-source
+    trigger: true
+  #  passed: [test]
+  - task: package
+    file: charlotte-source/ci/tasks/package.yml
+  - put: deploy-charlotte
+    params:
+      manifest: charlotte-source/manifest.yml
+      path: package-output/charlotte.war
+
+#- name: smoke_test
+#  public: true
+ # plan:
+  #- get: moviefun-source
+   # trigger: true
+   # passed: [deploy]
+  #- task: smoke_test
+   # file: moviefun-source/ci/tasks/smoke-test.yml
+ #   params:
+  #    MOVIEFUN_SERVICE_URL: https://attendee-service-thirstless-web.apps.pikes.pal.pivotal.io  #<---- REPLACE ME
+###########################
+
