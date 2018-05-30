@@ -26,5 +26,6 @@ $ cf push Charlotte -p target/charlotte.war
 ```
 
 # APP URL [https://charlotte-subpubescent-moonrise.cfapps.io/](https://charlotte-subpubescent-moonrise.cfapps.io/)
+# CI /CD Pipeline URL : [http://192.168.99.100:8080/teams/main/pipelines/Charlotte] (http://192.168.99.100:8080/teams/main/pipelines/Charlotte)
 
 
