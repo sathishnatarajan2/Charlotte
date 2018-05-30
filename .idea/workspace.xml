@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d303172c-e9fb-4bca-a760-d92b5e1a208a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvnw.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ci/tasks/package.sh" afterPath="$PROJECT_DIR$/ci/tasks/package.sh" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,8 +57,8 @@
       <file leaf-file-name="package.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ci/tasks/package.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,27 +110,27 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1527646376897" expanded="true" signature="32381:32423" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32381:32441" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32381:32454" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32381:32469" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32504:33528" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32517:33513" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32568:32833" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32587:32818" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32620:32798" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32660:32764" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32681:32742" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32876:33182" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32895:33167" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="32969:33147" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="33009:33113" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="33030:33091" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="33234:33499" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="33253:33484" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="33286:33464" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="33326:33430" ph="..." />
-                <marker date="1527646376897" expanded="true" signature="33347:33408" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32294:32336" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32294:32354" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32294:32367" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32294:32382" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32417:33441" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32430:33426" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32481:32746" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32500:32731" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32533:32711" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32573:32677" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32594:32655" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32789:33095" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32808:33080" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32882:33060" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32922:33026" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="32943:33004" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="33147:33412" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="33166:33397" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="33199:33377" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="33239:33343" ph="..." />
+                <marker date="1527647699760" expanded="true" signature="33260:33321" ph="..." />
               </folding>
             </state>
           </provider>
@@ -154,6 +152,7 @@
         <option value="$PROJECT_DIR$/manifest.yml" />
         <option value="$PROJECT_DIR$/ci/pipeline.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ci/tasks/package.sh" />
       </list>
     </option>
   </component>
@@ -448,36 +447,28 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1527646376897" expanded="true" signature="32381:32423" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32381:32441" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32381:32454" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32381:32469" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32504:33528" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32517:33513" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32568:32833" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32587:32818" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32620:32798" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32660:32764" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32681:32742" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32876:33182" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32895:33167" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="32969:33147" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="33009:33113" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="33030:33091" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="33234:33499" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="33253:33484" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="33286:33464" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="33326:33430" ph="..." />
-            <marker date="1527646376897" expanded="true" signature="33347:33408" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32294:32336" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32294:32354" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32294:32367" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32294:32382" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32417:33441" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32430:33426" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32481:32746" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32500:32731" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32533:32711" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32573:32677" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32594:32655" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32789:33095" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32808:33080" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32882:33060" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32922:33026" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="32943:33004" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="33147:33412" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="33166:33397" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="33199:33377" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="33239:33343" ph="..." />
+            <marker date="1527647699760" expanded="true" signature="33260:33321" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci/tasks/package.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +499,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -521,10 +512,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ci/tasks/package.sh">
+    <entry file="file://$PROJECT_DIR$/ci/tasks/package.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci/tasks/package.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
