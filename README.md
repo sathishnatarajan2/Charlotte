@@ -5,30 +5,11 @@
   * Database: MYSQL Service
   * Database connectivity driver: JPA
   * Build Pack : Java
-    * Build Tool: Maven
-    * Java version JDK 1.8
-    * Container service : Docker
-    * Container Service Orchestration: Docker Machine, Docker Swarm
-    * Continuous Integration: Concourse
-* Forum 
-  * [Concourse Discourse](https://discuss.concourse-ci.org)
-* Chat
-  * [Discord](https://discord.gg/MeRxXKW)
-* Roadmap:
-  * [GitHub Milestones](https://github.com/concourse/concourse/milestones)
-  * [GitHub Issues](https://github.com/concourse/concourse/issues)
-
- `*Technology Stack`
-    * Deployment environment [Pivotal.io PFS] (https://run.pivotal.io/)
-    * Development Framework: Spring 4.4, Spring Cloud Services,
-    * Database: MYSQL Service
-    * Database connectivity driver: JPA
-    * Build Pack : Java
-    * Build Tool: Maven
-    * Java version JDK 1.8
-    * Container service : Docker
-    * Container Service Orchestration: Docker Machine, Docker Swarm
-    * Continuous Integration: Concourse
+  * Build Tool: Maven
+  * Java version JDK 1.8
+  * Container service : Docker
+  * Container Service Orchestration: Docker Machine, Docker Swarm
+  * Continuous Integration: Concourse
     
  
 
