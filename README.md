@@ -4,9 +4,9 @@
   * Development Framework: Spring 4.4, Spring Cloud Services
   * Database: MYSQL Service
   * Database connectivity driver: JPA
-  * Build Pack : Java
+  * Build Pack : Java 1.8
   * Build Tool: Maven
-  * Java version JDK 1.8
+  * App container Library: Tomcat Embedded Server (TomEE)
   * Container service : Docker
   * Container Service Orchestration: Docker Machine, Docker Swarm
   * Continuous Integration: Concourse
