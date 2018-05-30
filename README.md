@@ -1,4 +1,17 @@
 # This is the Modernization POC Project to be deployed in Pivotal Cloud Foundry Platform
+* Website: [concourse-ci.org](https://concourse-ci.org)
+* Documentation:
+  * [About](https://concourse-ci.org/about.html)
+  * [Setting Up](https://concourse-ci.org/install.html)
+  * [Using Concourse / Docs](https://concourse-ci.org/)
+* Forum 
+  * [Concourse Discourse](https://discuss.concourse-ci.org)
+* Chat
+  * [Discord](https://discord.gg/MeRxXKW)
+* Roadmap:
+  * [GitHub Milestones](https://github.com/concourse/concourse/milestones)
+  * [GitHub Issues](https://github.com/concourse/concourse/issues)
+
  `*Technology Stack`
     * Deployment environment [Pivotal.io PFS] (https://run.pivotal.io/)
     * Development Framework: Spring 4.4, Spring Cloud Services,
