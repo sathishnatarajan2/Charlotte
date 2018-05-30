@@ -1,6 +1,6 @@
 # This is the Modernization POC Project to be deployed in Pivotal Cloud Foundry Platform
 * Website: [concourse-ci.org](https://concourse-ci.org)
-* Documentation:
+* `Technology Stack`:
   * [About](https://concourse-ci.org/about.html)
   * [Setting Up](https://concourse-ci.org/install.html)
   * [Using Concourse / Docs](https://concourse-ci.org/)
