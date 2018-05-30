@@ -1,4 +1,4 @@
-# This is the Modernization POC Project to be deployed in Pivotal Cloud Foundry Platform
+# This is the Modernization POC Project deployed in Pivotal Cloud Foundry Platform
 * `Technology Stack`:
   * Deployment environment [Pivotal.io PFS] (https://run.pivotal.io/)
   * Development Framework: Spring 4.4, Spring Cloud Services
