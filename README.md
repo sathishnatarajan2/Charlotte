@@ -12,6 +12,10 @@
   * Continuous Integration: Concourse
     
  
+## How it works:
+* Source code has checked in [Git Repositary](https://github.com/sathishnatarajan2/Charlotte.git)
+* CI/CD Concourse Pipeline has configured with Git Repositary with timer of every two minutes it listens any update on the repo, accordingly it does the latest build and pushes the package into  [Pivotal.io PFS](https://run.pivotal.io/)
+* Configured MySql Service available from Pivotal Marketplace
 
 ## Build the app with maven
 
