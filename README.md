@@ -32,4 +32,9 @@ $ cf push Charlotte -p target/charlotte.war
 # APP URL [https://charlotte-subpubescent-moonrise.cfapps.io/](https://charlotte-subpubescent-moonrise.cfapps.io/)
 # CI /CD Pipeline: [http://192.168.99.100:8080/teams/main/pipelines/Charlotte](http://192.168.99.100:8080/teams/main/pipelines/Charlotte)
 
+#Smoke Test
+* Smoke Test Added for following functionalities:
+  * Add Environment ( Entry Page)
+  * List Environment ( List / result page)
+
 
