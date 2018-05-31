@@ -10,6 +10,7 @@
   * Container service : Docker
   * Container Service Orchestration: Docker Machine, Docker Swarm
   * Continuous Integration: Concourse
+  * JUnit for Smoke Test
     
  
 ## How it works:
